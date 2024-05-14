@@ -2,9 +2,52 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
+
 @font-face {
-  font-family: "Neulis";
+  font-family: "NeulisAlt-SemiBold";
   src: url("/font/Neulis/NeulisAlt-SemiBold.otf");
   font-weight: 400;
-  
 }
+
+@font-face {
+  font-family: "NeulisAlt-Reguler";
+  src: url("/font/Neulis/NeulisAlt-Regular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NeulisAlt-Reguler2";
+  src: url("/font/Neulis2/NeulisAlt-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NeulisAlt-Medium";
+  src: url("/font/Neulis/NeulisAlt-Medium.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Neulis-Bold";
+  src: url("/font/Neulis/Neulis-Bold.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Neulis-SemiBold";
+  src: url("/font/Neulis/Neulis-SemiBold.otf");
+  font-weight: 400;
+}
+
+/* .button {
+  border-radius: 25px;
+} */
+
+
+
+/* @font-face {
+  font-family: "Monserat";
+  src: url('https://fonts.googleapis.com/css?family=Montserrat');
+  
+} */

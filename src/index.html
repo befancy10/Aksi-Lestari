@@ -4,26 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Aksi Lestari</title>
   </head>
-  <body class="bg-hijau-100 relative flex flex-col lg:flex-row py-12 md:py-4 xl:py-0 lg:px-0 gap-10 justify-center items-center z-10">
-    <div class="flex flex-col w-full justify-center items-start ">
-        <nav class="flex items-center w-full justify-evenly cursor-pointer md:py-8">
-            <img src="/asset/logo.png" alt="logo" class="w-20 h-12 lg:w-[138px] lg:h-20">
-            <ul class="md:flex md:items-center md:justify-center md:gap-8 hidden">     
-                <li class="list-none inline-block"><a href="index.html" class="font-neulis sm:text-navbar2 lg:text-navbar px-2">Home</a></li>
-                <li class="list-none inline-block"><a href="#" class="font-neulis sm:text-navbar2 lg:text-navbar size-2 px-2">Tentang</a></li>
-                <li class="list-none inline-block"><a href="#" class="font-neulis sm:text-navbar2 lg:text-navbar size-2 px-2">Produk Lerak</a></li>
-                <li class="list-none inline-block"><a href="#" class="font-neulis sm:text-navbar2 lg:text-navbar size-2 px-2">Kegiatan</a></li>
-                <li class="list-none inline-block"><a href="#" class="font-neulis sm:text-navbar2 lg:text-navbar size-2 px-2">Artikel</a></li>
+  <body>
+    <div class="bg-hijau-100 h-screen flex flex-col w-full">
+        <nav class="flex items-center w-full justify-between px-4 md:justify-evenly cursor-pointer py-4 md:py-6 xl:py-4 mb-14">
+            <img src="/asset/logo.png" alt="logo" class="w-20 h-10 md:w-24 md:h-14 xl:w-[138px] xl:h-20">
+            <ul class="hidden md:flex md:items-center md:justify-center md:gap-4 xl:gap-8">     
+                <li class="list-none inline-block"><a href="index.html" class="font-neulisAlt-SemiBold sm:text-navbar2 xl:text-navbar px-2">Home</a></li>
+                <li class="list-none inline-block"><a href="tutor.html" class="font-neulisAlt-SemiBold sm:text-navbar2 xl:text-navbar size-2 px-2">Tentang</a></li>
+                <li class="list-none inline-block"><a href="#" class="font-neulisAlt-SemiBold sm:text-navbar2 xl:text-navbar size-2 px-2">Produk Lerak</a></li>
+                <li class="list-none inline-block"><a href="#" class="font-neulisAlt-SemiBold sm:text-navbar2 xl:text-navbar size-2 px-2">Kegiatan</a></li>
+                <li class="list-none inline-block"><a href="#" class="font-neulisAlt-SemiBold sm:text-navbar2 xl:text-navbar size-2 px-2">Artikel</a></li>
             </ul>
-            <div>
-                <a href="https://ig.me/m/aksilestari.demibumi" class="bg-hijau-300 text-white neulisFont text-navbar rounded-3xl py-3 px-8">Let's Talk</a>
+            <div class="ml-16 md:ml-0">
+                <a href="https://ig.me/m/aksilestari.demibumi" class="bg-hijau-300 text-putih font-monserrat-bold sm:text-navbar2 xl:text-button md:rounded-2xl xl:rounded-3xl py-3 px-8">Let's Talk</a>
             </div>
-            <div>
-
+            <div class="hidden md:flex md:w-10 md:h-10 md:items-center md:justify-center">
+                <!-- <i class="fa fa-search md:w-8 md:h-8 p-2 justify-center"></i> -->
+                <img src="/asset/Icon Search.png" alt="iconSearch" class="md:w-6 md:h-6 xl:w-8 xl:h-8 items-center justify-center">
+            </div>
+            <div class="md:hidden">
+                <img src="/asset/iconHamburger.png" alt="iconHamburger" class="w-6 h-6 items-center justify-center">
+                <!-- <i class="fa fa-bars w-9 h-9"></i> -->
             </div>
         </nav>
+
+        <div class="flex flex-col md:flex-row w-full justify-between">
+            <div class="flex-col w-[484px] h-[612px] py-10 gap-y-10 md:ml-[60px] xl:ml-[105px] justify-between"> 
+                <h1 class="text-[#3D2F29] md:mb-4 xl:mb-8 font-neulis-Bold sm:text-5xl xl:text-head1 md:leading-[58px]">Halo C<span class="font-neulisAlt-SemiBold">alon</span><br><span class="font-neulisAlt-SemiBold">Eco W</span><span class="font-neulis-SemiBold">arrior!</span></h1>
+                <p class="font-neulisAlt-Reguler2 md:text-base xl:text-xl md:mb-4 xl:mb-8">Selamat datang di Aksi Lestari Demibumi Campaign! <br>
+                    <span class="font-neulisAlt-Medium">Are you ready to be part of change?</span></p>
+                <div class="flex items-center justify-start xl:-ml-3 md:-ml-2">
+                    <a href="https://www.instagram.com/aksilestari.demibumi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                        <img src="/asset/iconIG.png" alt="" class="xl:w-20 xl:h-20 md:w-14 md:h-14">
+                    </a>
+                    
+                    <!-- <a href="https://ig.me/m/aksilestari.demibumi" class="bg-hijau-300 text-putih font-monserrat-bold sm:text-navbar2 lg:text-button w-full rounded-3xl py-3 px-8">Explore more</a> -->
+                    <button class="text-white font-neulisAlt-Medium md:text-xl xl:text-buttonExplore bg-hijau-300 md:w-[350px] md:h-[52px] xl:w-[394px] xl:h-[64px] ml-2 rounded-full ">
+                        Explore more
+                    </button>
+                </div>
+            </div>
+            <div class="flex justify-end">
+                <img src="/asset/imgCarousel.png" alt="imgCarousel" class="xl:w-[760px] xl:h-[460px] md:w-[520px] md:h-[320px] ">
+            </div>
+        </div>
+        <i class="fa-arrow-left"></i>
+
     </div>
 </body>
 </html>
