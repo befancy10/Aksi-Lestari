@@ -26,3 +26,12 @@ prevButton.addEventListener('click', () => {
   currentSlide--;
   carousel.scrollLeft -= carousel.offsetWidth;
 });
+
+
+document.getElementById('scrollAbout').addEventListener('click', function() {
+  document.getElementById('videoModal').classList.remove('hidden');
+});
+
+document.getElementById('closeModal').addEventListener('click', function() {
+  document.getElementById('videoModal').classList.add('hidden');
+});

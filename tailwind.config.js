@@ -90,6 +90,11 @@ module.exports = {
           letterSpacing: '-0.01em',
           fontWeight: 400,
         }],
+        fon4464_700: ['44px', {
+          lineHeight: '64px',
+          letterSpacing: '-0.01em',
+          fontWeight: 700,
+        }],
         fon5075: ['50px', {
           lineHeight: '75px',
           letterSpacing: '-0.01em',
