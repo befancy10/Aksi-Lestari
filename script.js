@@ -28,10 +28,3 @@ prevButton.addEventListener('click', () => {
 });
 
 
-document.getElementById('scrollAbout').addEventListener('click', function() {
-  document.getElementById('videoModal').classList.remove('hidden');
-});
-
-document.getElementById('closeModal').addEventListener('click', function() {
-  document.getElementById('videoModal').classList.add('hidden');
-});
