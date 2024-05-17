@@ -2,7 +2,6 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-
 @font-face {
   font-family: "NeulisAlt-SemiBold";
   src: url("../font/Neulis/NeulisAlt-SemiBold.otf");
