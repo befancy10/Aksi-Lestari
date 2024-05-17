@@ -4,37 +4,37 @@
 
 @font-face {
   font-family: "NeulisAlt-SemiBold";
-  src: url("https://befancy10.github.io/Aksi-Lestari/font/Neulis/NeulisAlt-SemiBold.otf"); 
+  src: url("https://befancy10.github.io/Aksi-Lestari/font/Neulis/NeulisAlt-SemiBold.otf") format("opentype"); 
   font-weight: 400;
 }
 
 @font-face {
   font-family: "NeulisAlt-Bold";
-  src: url("https://befancy10.github.io/Aksi-Lestari/font/Neulis/NeulisAlt-Bold.otf");
+  src: url("https://befancy10.github.io/Aksi-Lestari/font/Neulis/NeulisAlt-Bold.otf") format("opentype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "NeulisAlt-Reguler";
-  src: url("https://befancy10.github.io/Aksi-Lestari/font/Neulis/NeulisAlt-Regular.otf");
+  src: url("https://befancy10.github.io/Aksi-Lestari/font/Neulis/NeulisAlt-Regular.otf") format("opentype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "NeulisAlt-Reguler2";
-  src: url("https://befancy10.github.io/Aksi-Lestari/font/Neulis2/NeulisAlt-Regular.ttf");
+  src: url("https://befancy10.github.io/Aksi-Lestari/font/Neulis2/NeulisAlt-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "NeulisAlt-MediumItalic";
-  src: url("https://befancy10.github.io/Aksi-Lestari/font/Neulis/NeulisAlt-MediumItalic.otf");
+  src: url("https://befancy10.github.io/Aksi-Lestari/font/Neulis/NeulisAlt-MediumItalic.otf") format("opentype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "NeulisAlt-Medium";
-  src: url("https://befancy10.github.io/Aksi-Lestari/font/Neulis/NeulisAlt-Medium.otf");
+  src: url("https://befancy10.github.io/Aksi-Lestari/font/Neulis/NeulisAlt-Medium.otf") format("opentype");
   font-weight: 400;
 }
 
@@ -42,37 +42,37 @@
 
 @font-face {
   font-family: "Neulis-Bold";
-  src: url("https://befancy10.github.io/Aksi-Lestari/font/Neulis/Neulis-Bold.otf");
+  src: url("https://befancy10.github.io/Aksi-Lestari/font/Neulis/Neulis-Bold.otf") format("opentype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Neulis-SemiBold";
-  src: url("https://befancy10.github.io/Aksi-Lestari/font/Neulis/Neulis-SemiBold.otf");
+  src: url("https://befancy10.github.io/Aksi-Lestari/font/Neulis/Neulis-SemiBold.otf") format("opentype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "MiniStory";
-  src: url("https://befancy10.github.io/Aksi-Lestari/font/MiniStory/MiniStory.otf");
+  src: url("https://befancy10.github.io/Aksi-Lestari/font/MiniStory/MiniStory.otf") format("opentype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "MiniStory-Bold";
-  src: url("https://befancy10.github.io/Aksi-Lestari/font/MiniStory/MiniStory-Bold.otf");
+  src: url("https://befancy10.github.io/Aksi-Lestari/font/MiniStory/MiniStory-Bold.otf") format("opentype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: url("https://befancy10.github.io/Aksi-Lestari/font/Montserrat/Montserrat-Regular.otf");
+  src: url("https://befancy10.github.io/Aksi-Lestari/font/Montserrat/Montserrat-Regular.otf") format("opentype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Montserrat-Bold";
-  src: url("https://befancy10.github.io/Aksi-Lestari/font/Montserrat/Montserrat-Bold.otf");
+  src: url("https://befancy10.github.io/Aksi-Lestari/font/Montserrat/Montserrat-Bold.otf") format("opentype");
   font-weight: 700;
 }
 .carousel {
