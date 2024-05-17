@@ -2,6 +2,27 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+.montserrat-400 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-700 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 @font-face {
   font-family: "NeulisAlt-SemiBold";
   src: url("../font/Neulis/NeulisAlt-SemiBold.otf") format("opentype"); 

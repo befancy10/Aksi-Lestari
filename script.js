@@ -11,20 +11,20 @@ document.getElementById('scrollAbout').addEventListener('click', function() {
     });
 });
 
-const carousel = document.getElementById('carousel');
-const nextButton = document.getElementById('nextButton');
-const prevButton = document.getElementById('prevButton');
+// const carousel = document.getElementById('carousel');
+// const nextButton = document.getElementById('nextButton');
+// const prevButton = document.getElementById('prevButton');
 
-let currentSlide = 0;
+// let currentSlide = 0;
 
-nextButton.addEventListener('click', () => {
-  currentSlide++;
-  carousel.scrollLeft += carousel.offsetWidth; // Adjust scroll position based on slide width
-});
+// nextButton.addEventListener('click', () => {
+//   currentSlide++;
+//   carousel.scrollLeft += carousel.offsetWidth; // Adjust scroll position based on slide width
+// });
 
-prevButton.addEventListener('click', () => {
-  currentSlide--;
-  carousel.scrollLeft -= carousel.offsetWidth;
-});
+// prevButton.addEventListener('click', () => {
+//   currentSlide--;
+//   carousel.scrollLeft -= carousel.offsetWidth;
+// });
 
 
