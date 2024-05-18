@@ -4,18 +4,18 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'neulisAlt-SemiBold': ["NeulisAlt-SemiBold"],
-        'neulisAlt-Bold': ["NeulisAlt-Bold"],
-        'neulisAlt-Reguler': ["NeulisAlt-Reguler"],
-        'neulisAlt-Reguler2': ["NeulisAlt-Reguler2"],
-        'neulisAlt-Medium': ["NeulisAlt-Medium"],
-        'neulisAlt-MediumItalic': ["NeulisAlt-MediumItalic"],
-        'neulis-Bold': ["Neulis-Bold"],
-        'neulis-SemiBold': ["Neulis-SemiBold"],
-        'monserrat-reguler': ["Montserrat"],
-        'monserrat-bold': ["Montserrat-Bold"],
-        'miniStory': ["MiniStory"],
-        'miniStory-Bold': ["MiniStory-Bold"],
+        'na-SB': ["NeulisAlt-SB"],
+        'na-B': ["NeulisAlt-B"],
+        'na-R': ["NeulisAlt-R"],
+        'na-R2': ["NeulisAlt-R2"],
+        'na-M': ["NeulisAlt-M"],
+        'na-MI': ["NeulisAlt-MI"],
+        'n-B': ["Neulis-B"],
+        'n-SB': ["Neulis-SB"],
+        'm-R': ["Montserrat"],
+        'm-B': ["Montserrat-B"],
+        'ms': ["MiniStory"],
+        'ms-B': ["MiniStory-B"],
       },
       colors: {
         'hijau':{
@@ -34,6 +34,11 @@ module.exports = {
           lineHeight: '23px',
           letterSpacing: '-0.01em',
           fontWeight: 400,
+        }],
+        fon1216_700: ['12px', {
+          lineHeight: '16px',
+          letterSpacing: '-0.01em',
+          fontWeight: 700,
         }],
         fon1218: ['12px', {
           lineHeight: '18px',

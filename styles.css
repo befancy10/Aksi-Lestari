@@ -15,87 +15,108 @@
   font-style: normal;
 }
 
-body {
+/* body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-}
+} */
 
-
-@font-face {
-  font-family: "NeulisAlt-SemiBold";
-  src: url("../font/Neulis/NeulisAlt-SemiBold.otf") format("opentype"); 
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "NeulisAlt-Bold";
-  src: url("../font/Neulis/NeulisAlt-Bold.otf") format("opentype");
-  font-weight: 400;
-}
+/* @font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: optional;
+  src: url('/fonts/Poppins/Poppins-Semibold.woff2') format('woff2');
+} */
 
 @font-face {
-  font-family: "NeulisAlt-Reguler";
-  src: url("../font/Neulis/NeulisAlt-Regular.otf") format("opentype");
+  font-family: "NeulisAlt-SB";
+  src: url("./font/convert/NeulisAlt-SemiBold.woff2") format('woff2'); 
   font-weight: 400;
+  font-display: optional;
 }
 
 @font-face {
-  font-family: "NeulisAlt-Reguler2";
-  src: url("../font/Neulis2/NeulisAlt-Regular.ttf") format("truetype");
+  font-family: "NeulisAlt-B";
+  src: url("/font/convert/NeulisAlt-Bold.woff2") format('woff2');
   font-weight: 400;
+  font-display: optional;
 }
 
 @font-face {
-  font-family: "NeulisAlt-MediumItalic";
-  src: url("../font/Neulis/NeulisAlt-MediumItalic.otf") format("opentype");
+  font-family: "NeulisAlt-R";
+  src: url("/font/convert/NeulisAlt-Regular.woff2") format('woff2');
   font-weight: 400;
+  font-display: optional;
 }
 
 @font-face {
-  font-family: "NeulisAlt-Medium";
-  src: url("../font/Neulis/NeulisAlt-Medium.otf") format("opentype");
+  font-family: "NeulisAlt-R2";
+  src: url("/font/Neulis2/NeulisAlt-Regular.woff2");
   font-weight: 400;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: "NeulisAlt-MI";
+  src: url("/font/convert/NeulisAlt-MediumItalic.woff2") format('woff2');
+  font-weight: 400;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: "NeulisAlt-M";
+  src: url("font/convert/NeulisAlt-Medium.woff2") format('woff2');
+  font-weight: 400;
+  font-display: optional;
 }
 
 
 
 @font-face {
-  font-family: "Neulis-Bold";
-  src: url("../font/Neulis/Neulis-Bold.otf") format("opentype");
+  font-family: "Neulis-B";
+  src: url("font/convert/Neulis-Bold.woff2") format('woff2');
   font-weight: 400;
+  font-display: optional;
 }
 
 @font-face {
-  font-family: "Neulis-SemiBold";
-  src: url("../font/Neulis/Neulis-SemiBold.otf") format("opentype");
+  font-family: "Neulis-SB";
+  src: url("font/convert/Neulis-SemiBold.woff2") format('woff2');
   font-weight: 400;
+  font-display: optional;
 }
 
 @font-face {
   font-family: "MiniStory";
-  src: url("../font/MiniStory/MiniStory.otf") format("opentype");
+  src: url("font/convert/MiniStory.woff2") format('woff2');
   font-weight: 400;
+  font-display: optional;
 }
 
 @font-face {
-  font-family: "MiniStory-Bold";
-  src: url("../font/MiniStory/MiniStory-Bold.otf") format("opentype");
+  font-family: "MiniStory-B";
+  src: url("font/convert/MiniStory.woff2") format('woff2');
   font-weight: 400;
+  font-display: optional;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: url("../font/Montserrat/Montserrat-Regular.otf") format("opentype");
+  src: url("font/convert/Montserrat-Regular.woff2") format('woff2');
   font-weight: 400;
+  font-display: optional;
 }
 
 @font-face {
-  font-family: "Montserrat-Bold";
-  src: url("../font/Montserrat/Montserrat-Bold.otf") format("opentype");
+  font-family: "Montserrat-B";
+  src: url("font/convert/Montserrat-Bold.woff2") format('woff2');
   font-weight: 700;
+  font-display: optional;
 }
+
+
 .carousel {
   overflow: hidden;
   position: relative;
