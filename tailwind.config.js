@@ -6,7 +6,7 @@ module.exports = {
       fontFamily: {
         'na-SB': ["NeulisAlt-SB"],
         'na-B': ["NeulisAlt-B"],
-        'na-R': ["NeulisAlt-R"],
+        'na-Reg': ["NeulisAlt-Reg"],
         'na-S': ["NeulisAlt-S"],
         'na-M': ["NeulisAlt-M"],
         'diff': ["NeulisAlt-Diff"],

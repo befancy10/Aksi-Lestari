@@ -45,22 +45,8 @@
 }
 
 @font-face {
-  font-family: "NeulisAlt-R";
-  src: url("font/convert/diff/NeulisAlt-Regular.woff2") format('woff2');
-  font-weight: 400;
-  font-display: optional;
-}
-
-@font-face {
-  font-family: "NeulisAlt-S";
-  src: url("/font/convert/NeulisAlt-SemiRegular.woff2") format('woff2');
-  font-weight: 400;
-  font-display: optional;
-}
-
-@font-face {
-  font-family: "NeulisAlt-Diff";
-  src: url("font/convert/diff/NeulisAlt-MedItal.woff2") format('woff2');
+  font-family: "NeulisAlt-Reg";
+  src: url("/font/convert/NeulisAlt-Regular.woff2") format('woff2');
   font-weight: 400;
   font-display: optional;
 }
