@@ -46,21 +46,21 @@
 
 @font-face {
   font-family: "NeulisAlt-R";
-  src: url("font/convert/Montserrat-Bold.woff2") format('woff2');
+  src: url("font/convert/diff/NeulisAlt-Regular.woff2") format('woff2');
   font-weight: 400;
   font-display: optional;
 }
 
 @font-face {
-  font-family: "NeulisAlt-SemiRegu";
-  src: url("/font/convert/NeulisAlt-SemiRegu.woff") format('woff');
+  font-family: "NeulisAlt-S";
+  src: url("/font/convert/NeulisAlt-SemiRegular.woff2") format('woff2');
   font-weight: 400;
   font-display: optional;
 }
 
 @font-face {
-  font-family: "NeulisAlt-MediumItalic";
-  src: url("font/convert/Neulis-Bold.woff2") format('woff2');
+  font-family: "NeulisAlt-Diff";
+  src: url("font/convert/diff/NeulisAlt-MedItal.woff2") format('woff2');
   font-weight: 400;
   font-display: optional;
 }
