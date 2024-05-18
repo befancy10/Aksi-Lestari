@@ -9,7 +9,7 @@ module.exports = {
         'na-R': ["NeulisAlt-R"],
         'na-SR': ["NeulisAlt-SemiRegu"],
         'na-M': ["NeulisAlt-M"],
-        'na-MItal': ["NeulisAlt-MedItal"],
+        'mediumitalic': ["NeulisAlt-MediumItalic"],
         'n-B': ["Neulis-B"],
         'n-SB': ["Neulis-SB"],
         'm-R': ["Montserrat"],
