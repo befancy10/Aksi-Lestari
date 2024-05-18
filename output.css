@@ -2669,8 +2669,8 @@ video {
   font-family: NeulisAlt-M;
 }
 
-.font-na-MI {
-  font-family: NeulisAlt-MI;
+.font-na-MItal {
+  font-family: NeulisAlt-MedItal;
 }
 
 .font-na-R {
@@ -2682,7 +2682,7 @@ video {
 }
 
 .font-na-SR {
-  font-family: NeulisAlt-SR;
+  font-family: NeulisAlt-SemiRegu;
 }
 
 .text-base {
@@ -3339,9 +3339,9 @@ video {
 }
 
 @font-face {
-  font-family: "NeulisAlt-SR";
+  font-family: "NeulisAlt-SemiRegu";
 
-  src: url("/font/convert/NeulisAlt-SemiRegular.woff2") format("woff2");
+  src: url("/font/convert/NeulisAlt-SemiRegu.woff") format('woff');
 
   font-weight: 400;
 
@@ -3349,9 +3349,9 @@ video {
 }
 
 @font-face {
-  font-family: "NeulisAlt-MI";
+  font-family: "NeulisAlt-MedItal";
 
-  src: url("/font/convert/NeulisAlt-MediumItalic.woff2") format('woff2');
+  src: url("/font/convert/NeulisAlt-MedItal.woff2") format('woff2');
 
   font-weight: 400;
 

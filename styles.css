@@ -52,15 +52,15 @@
 }
 
 @font-face {
-  font-family: "NeulisAlt-SR";
-  src: url("/font/convert/NeulisAlt-SemiRegular.woff2") format("woff2");
+  font-family: "NeulisAlt-SemiRegu";
+  src: url("/font/convert/NeulisAlt-SemiRegu.woff") format('woff');
   font-weight: 400;
   font-display: optional;
 }
 
 @font-face {
-  font-family: "NeulisAlt-MI";
-  src: url("/font/convert/NeulisAlt-MediumItalic.woff2") format('woff2');
+  font-family: "NeulisAlt-MedItal";
+  src: url("/font/convert/NeulisAlt-MedItal.woff2") format('woff2');
   font-weight: 400;
   font-display: optional;
 }
