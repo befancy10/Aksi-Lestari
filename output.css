@@ -2641,12 +2641,28 @@ video {
   font-family: Montserrat-B;
 }
 
+.font-m-R {
+  font-family: Montserrat;
+}
+
+.font-ms {
+  font-family: MiniStory;
+}
+
+.font-ms-B {
+  font-family: MiniStory-B;
+}
+
 .font-n-B {
   font-family: Neulis-B;
 }
 
 .font-n-SB {
   font-family: Neulis-SB;
+}
+
+.font-na-B {
+  font-family: NeulisAlt-B;
 }
 
 .font-na-M {
@@ -2657,32 +2673,16 @@ video {
   font-family: NeulisAlt-MI;
 }
 
-.font-na-R2 {
-  font-family: NeulisAlt-R2;
+.font-na-R {
+  font-family: NeulisAlt-R;
 }
 
 .font-na-SB {
   font-family: NeulisAlt-SB;
 }
 
-.font-ms-B {
-  font-family: MiniStory-B;
-}
-
-.font-m-R {
-  font-family: Montserrat;
-}
-
-.font-na-R {
-  font-family: NeulisAlt-R;
-}
-
-.font-na-B {
-  font-family: NeulisAlt-B;
-}
-
-.font-ms {
-  font-family: MiniStory;
+.font-na-SR {
+  font-family: NeulisAlt-SR;
 }
 
 .text-base {
@@ -3339,9 +3339,9 @@ video {
 }
 
 @font-face {
-  font-family: "NeulisAlt-R2";
+  font-family: "NeulisAlt-SR";
 
-  src: url("/font/Neulis2/NeulisAlt-Regular.woff2");
+  src: url("/font/convert/NeulisAlt-SemiRegular.woff2") format("woff2");
 
   font-weight: 400;
 

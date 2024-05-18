@@ -52,8 +52,8 @@
 }
 
 @font-face {
-  font-family: "NeulisAlt-Reg";
-  src: url("/font/convert/NeulisAlt-Reg.woff2") format("woff2");
+  font-family: "NeulisAlt-SR";
+  src: url("/font/convert/NeulisAlt-SemiRegular.woff2") format("woff2");
   font-weight: 400;
   font-display: optional;
 }
