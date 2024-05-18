@@ -7,7 +7,7 @@ module.exports = {
         'na-SB': ["NeulisAlt-SB"],
         'na-B': ["NeulisAlt-B"],
         'na-R': ["NeulisAlt-R"],
-        'na-R2': ["NeulisAlt-R2"],
+        'na-Reg': ["NeulisAlt-Reg"],
         'na-M': ["NeulisAlt-M"],
         'na-MI': ["NeulisAlt-MI"],
         'n-B': ["Neulis-B"],
