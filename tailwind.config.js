@@ -30,8 +30,33 @@ module.exports = {
         'abuBg': "#F7F7F7"
       },
       fontSize:{
+        fon812: ['8px', {
+          lineHeight: '12px',
+          letterSpacing: '-0.01em',
+          fontWeight: 400,
+        }],
+        fon1014: ['10px', {
+          lineHeight: '14px',
+          letterSpacing: '-0.01em',
+          fontWeight: 400,
+        }],
+        fon1014_700: ['10px', {
+          lineHeight: '14px',
+          letterSpacing: '-0.01em',
+          fontWeight: 700,
+        }],
         navbar: ['1.125rem', {
           lineHeight: '23px',
+          letterSpacing: '-0.01em',
+          fontWeight: 400,
+        }],
+        fon1116_400: ['11px', {
+          lineHeight: '16px',
+          letterSpacing: '-0.01em',
+          fontWeight: 400,
+        }],
+        fon1216_400: ['12px', {
+          lineHeight: '16px',
           letterSpacing: '-0.01em',
           fontWeight: 400,
         }],
@@ -69,6 +94,11 @@ module.exports = {
           lineHeight: '24px',
           letterSpacing: '-0.01em',
           fontWeight: 400,
+        }],
+        fon1822_500: ['18px', {
+          lineHeight: '22px',
+          letterSpacing: '-0.01em',
+          fontWeight: 500,
         }],
         fon2030: ['20px', {
           lineHeight: '30px',
