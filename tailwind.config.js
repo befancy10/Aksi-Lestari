@@ -95,6 +95,11 @@ module.exports = {
           letterSpacing: '-0.01em',
           fontWeight: 400,
         }],
+        fon1822_400: ['18px', {
+          lineHeight: '22px',
+          letterSpacing: '-0.01em',
+          fontWeight: 400,
+        }],
         fon1822_500: ['18px', {
           lineHeight: '22px',
           letterSpacing: '-0.01em',
@@ -115,6 +120,11 @@ module.exports = {
           letterSpacing: '-0.01em',
           fontWeight: 400,
         }],
+        fon2848_700: ['28px', {
+          lineHeight: '48px',
+          letterSpacing: '-0.01em',
+          fontWeight: 700,
+        }],
         head2: ['36px', {
           lineHeight: '54px',
           letterSpacing: '-0.01em',
@@ -122,6 +132,11 @@ module.exports = {
         }],
         fon3654_400: ['36px', {
           lineHeight: '54px',
+          letterSpacing: '-0.01em',
+          fontWeight: 400,
+        }],
+        fon4464_400: ['44px', {
+          lineHeight: '64px',
           letterSpacing: '-0.01em',
           fontWeight: 400,
         }],

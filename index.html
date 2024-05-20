@@ -11,8 +11,8 @@
     <title>Aksi Lestari</title>
   </head>
   <body>
-    <div class="bg-hijau-100 min-h-screen flex flex-col w-full">
-        <nav class="flex items-center w-full justify-between px-[2vw] md:justify-evenly cursor-pointer py-4 md:py-6 xl:py-[4vh] mb-14">
+    <div class="bg-hijau-100 md:h-screen xl:min-h-screen flex flex-col w-full">
+        <nav class="flex items-center w-full justify-between px-[2vw] md:justify-evenly cursor-pointer py-4 md:py-6 xl:py-[4vh] md:mb-10 xl:mb-14">
             <img 
             src="./asset/logo.png" 
             alt="logo" 
@@ -50,40 +50,40 @@
         </nav>
 
         <div class="flex flex-col md:flex-row w-full justify-between">
-            <div class="flex-col w-[484px] h-[612px] py-10 gap-y-10 md:ml-[60px] xl:ml-[7.5vw] justify-between"> 
-                <h1 class="text-[#3D2F29] md:mb-4 xl:mb-7 font-n-B sm:text-5xl xl:text-head1 md:leading-[58px]">
+            <div class="flex-col md:w-[384px] h-[412px] xl:w-[484px] xl:h-[612px] py-10 md:gap-y-5 xl:gap-y-10 md:ml-[40px] xl:ml-[7.5vw] justify-between"> 
+                <h1 class="text-[#3D2F29] md:mb-4 xl:mb-7 font-n-B sm:text-4xl xl:text-head1 lg:leading-[58px]">
                     Halo C<span class="font-na-SB">alon</span>
                     <br>
                     <span class="font-na-SB">Eco W</span><span class="font-n-SB">arrior!</span>
                 </h1>
-                <p class="font-m-R md:text-base xl:text-xl md:mb-4 xl:mb-8">
+                <p class="font-m-R md:text-sm xl:text-xl md:mb-4 xl:mb-8">
                     Selamat datang di Aksi Lestari Demibumi Campaign! 
                     <br>
                     <span class="font-na-M">Are you ready to be part of change?</span>
                 </p>
                 <div class="flex items-center justify-start xl:-ml-3 md:-ml-2">
                     <a href="https://www.instagram.com/aksilestari.demibumi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                        <img src="./asset/iconIG.png" alt="" class="xl:w-16 xl:h-16 md:w-14 md:h-14">
+                        <img src="./asset/iconIG.png" alt="" class="xl:w-16 xl:h-16 md:w-10 md:h-10">
                     </a>
                     
-                    <button id="scrollAbout" class="text-white font-na-M md:text-xl xl:text-buttonExplore bg-hijau-300 md:w-[350px] md:h-[52px] xl:w-[394px] xl:h-[76px] ml-2 rounded-3xl flex items-center justify-center space-x-2">
+                    <button id="scrollAbout" class="text-white font-na-M md:text-base xl:text-buttonExplore bg-hijau-300 md:w-[240px] md:h-[48px] xl:w-[394px] xl:h-[76px] ml-2 md:rounded-2xl xl:rounded-3xl flex items-center justify-center space-x-2">
                         Explore more 
                         <img 
                         src="./asset/ArrowDownRight.png" 
                         alt="ArrowDownRight" 
-                        class="w-[34px] h-[34px] ml-2"
+                        class="md:w-[28px] md:h-[28px] xl:w-[34px] xl:h-[34px] ml-2"
                         >
                     </button>
                     
                 </div>
             </div>
-            <div class="flex justify-end">
+            <div class="flex justify-end md:mt-[6vh] xl:mt-0">
                 <img 
                 src="./asset/imgCarousel.png" 
                 alt="imgCarousel" 
-                class="xl:w-[760px] xl:h-[460px] md:w-[520px] md:h-[320px] "
+                class="xl:w-[760px] xl:h-[460px] md:w-[380px] md:h-[248px] "
                 >
-                <div class="absolute flex flex-row w-1/2 h-1/2 mt-[6vh] px-[1vw] justify-between items-center">
+                <!-- <div class="absolute flex flex-row w-1/2 h-1/2 mt-[6vh] px-[1vw] justify-between items-center">
                     <button>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
@@ -94,30 +94,30 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                         </svg>  
                     </button>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
 
-    <div class="flex flex-col w-full min-h-screen bg-hijau-200" id="about">
-        <div class="block h-[10vh]"></div>
-        <div class=" bg-white w-full md:h-[390px]  xl:h-[80vh] bg-[url(./asset/backgroundAbout.png)] bg-w-full bg-contain bg-no-repeat">
+    <div class="flex flex-col w-full h-screen bg-hijau-200" id="about">
+        <div class="block md:h-[20vh] lg:h-[10vh]"></div>
+        <div class=" bg-white w-screen md:h-[300px] lg:h-[400px] xl:h-[80vh] bg-[url(./asset/backgroundAbout.png)] bg-cover bg-no-repeat">
             <!-- <img src="./asset/backgroundAbout.png" alt="backgroundAbout" class="z-0"> -->
-            <div class="flex flex-col items-center justify-center p-[8vh]">
+            <div class="flex flex-col items-center justify-center md:py-[6vh] lg:py-[8vh] xl:py-[8vh] lg:-mt-2 xl:mt-0">
                 <img 
                 src="./asset/logoAbout.png" 
                 alt="logo" 
-                class="w-[448px] h-[283px]"
+                class="md:w-[208px] md:h-[143px] lg:w-[310px] lg:h-[183px] xl:w-[448px] xl:h-[283px]"
                 >
-                <button id="watchVideo1" class="text-white font-na-M md:text-xl xl:text-base bg-hijau-300 md:w-[180px] md:h-[32px] xl:w-[233px] xl:h-[43px] rounded-full flex items-center justify-center space-x-2 mt-4">
+                <button id="watchVideo1" class="text-white font-na-SB md:text-fon1014 xl:text-base bg-hijau-300 md:w-[120px] md:h-[24px]  xl:w-[233px] xl:h-[43px] rounded-full flex items-center justify-center space-x-2 md:mt-2 xl:mt-4">
                     <img 
                     src="./asset/iconPlay.png" 
                     alt="iconPlay" 
-                    class="w-[32px] h-[32px] mr-[10px]"
+                    class="md:w-[20px] md:h-[20px] xl:w-[32px] xl:h-[32px] md:mr-1 xl:mr-[10px]"
                     >
                     Watch Video
                 </button>
-                <p class="w-[829px] mt-4 font-m-B text-center">
+                <p class="md:w-[410px] lg:w-[580px] xl:w-[829px] mt-4 font-m-B text-center md:text-fon812 lg:text-fon1216_400 xl:text-button400">
                     .Aksi Lestari Demibumi 
                     <span class="font-m-R"> mengajak masyarakat Indonesia untuk bijak memilih produk kebersihan yang aman bagi lingkungan sebagai upaya menekan pencemaran akibat limbah domestik dari produk kebersihan baik limbah cairnya maupun kemasannya dengan pakai sabun lerak Demibumi.</span>
                 </p>
@@ -129,21 +129,21 @@
     <div class="relative flex flex-col min-w-full h-[89vh] bg-putihBg items-center">
         <div class="w-full h-[40vh] bg-hijau-200"></div>
 
-        <div class="absolute flex flex-col justify-center items-center top-[2vh]">
-            <p class="font-n-B text-head2 text-putihFont">
+        <div class="absolute flex flex-col justify-center items-center lg:top-[4vh] xl:top-[2vh]">
+            <p class="font-n-B md:mt-10 lg:mt-4 md:text-fon2848_700 xl:text-head2 text-putihFont">
                 Produk Lerak Demibumi  
             </p>
-            <p class="font-ms-B text-putihFont text-fon2030 mt-[2.5vh]"> 
+            <p class="font-ms-B text-putihFont md:text-fon1421 xl:text-fon2030 md:mt-2 xl:mt-[2.5vh]"> 
                 <!-- span harusnya na med italic -->
                 Yuk! <span class="font-na-M">#PakaiLerak Demibumi...</span>
             </p>
         </div>
 
         <div class="absolute flex flex-row w-full justify-between items-center top-[10vh]">
-            <p class="font-ms-B text-fon5075 text-putihFont opacity-[50%]">
+            <p class="font-ms-B md:text-fon3654_400 lg:text-fon4464_400 xl:text-fon5075 text-putihFont opacity-[50%]">
                 #PakaiLerak
             </p>
-            <p class="font-ms-B text-fon5075 text-putihFont opacity-[50%]">
+            <p class="font-ms-B md:text-fon3654_400 lg:text-fon4464_400 xl:text-fon5075 text-putihFont opacity-[50%]">
                 #PakaiLerak
             </p>
         </div>
@@ -154,10 +154,10 @@
                     <img 
                     src="./asset/produk1.png" 
                     alt="produk1" 
-                    class="xl:[355px] xl:h-[278px]">
+                    class="md:w-[280px] md:h-[200px] lg:w-[310px] lg:h-[250px] xl:w-[355px] xl:h-[278px]">
                 </a>
                 <div class="flex flex-row w-full justify-between items-start mt-[3vh]">
-                    <p class="font-n-SB text-hitamFont text-fon2030">
+                    <p class="font-n-SB text-hitamFont md:text-fon1822_400 xl:text-fon2030">
                         Sabun Cuci Lerak
                         <br>
                         <span class="font-ms-B">All Porpuse</span>
@@ -166,12 +166,12 @@
                         <img 
                         src="./asset/arrowTopRight.png" 
                         alt="produk1" 
-                        class="xl:w-9 xl:h-9">
+                        class="md:w-8 md:h-8 xl:w-9 xl:h-9">
                     </a>
                 </div>
                 <div class="flex flex-row w-full justify-start items-center">
                     <img src="./asset/review1.png" alt="review1" class="w-[61px] h-6 mr-[0.5vw]">
-                    <p class="text-base text-[#282A3A] opacity-[72%]">(360 reviews)</p>
+                    <p class="md:text-fon1116_400 xl:text-base text-[#282A3A] opacity-[72%]">(360 reviews)</p>
                 </div>
             </div>
 
@@ -180,17 +180,17 @@
                     <img 
                     src="./asset/produk2.png" 
                     alt="produk2" 
-                    class="xl:[354px] xl:h-[276px]">
+                    class="md:w-[280px] md:h-[200px] lg:w-[310px] lg:h-[250px] xl:w-[354px] xl:h-[276px]">
                 </a>
                 <div class="flex flex-row w-full justify-between items-start mt-[3vh]">
-                    <p class="font-n-SB text-hitamFont text-fon2030">
+                    <p class="font-n-SB text-hitamFont md:text-fon1822_400 xl:text-fon2030">
                         Sabun dan Sampo Lerak
                     </p>
                     <a href="https://shopee.co.id/demibumi-Sampo-Sabun-Lerak-Soapnut-Shampoo-and-Body-Soap-i.236728586.6437727612?xptdk=d936beed-ef08-409a-986d-72178c8d2e56">
                         <img 
                         src="./asset/arrowTopRight.png" 
                         alt="produk1" 
-                        class="xl:w-9 xl:h-9">
+                        class="md:w-8 md:h-8 xl:w-9 xl:h-9">
                     </a>
                 </div>
                 <div class="flex flex-row w-full justify-start items-center mt-[3vh]">
@@ -204,17 +204,17 @@
                     <img 
                     src="./asset/produk3.png" 
                     alt="produk3" 
-                    class="xl:[353px] xl:h-[274px]">
+                    class="md:w-[280px] md:h-[200px] lg:w-[310px] lg:h-[250px] xl:w-[353px] xl:h-[274px]">
                 </a>
                 <div class="flex flex-row w-full justify-between items-start mt-[3vh]">
-                    <p class="font-n-SB text-hitamFont text-fon2030">
+                    <p class="font-n-SB text-hitamFont md:text-fon1822_400 xl:text-fon2030">
                         Soapnut Lerak
                     </p>
                     <a href="https://shopee.co.id/demibumi-Paket-Lerak-Pouch-250-gram-i.236728586.7738089004?xptdk=3311b371-1faa-44ec-8a07-c3e069e11345">
                         <img 
                         src="./asset/arrowTopRight.png" 
                         alt="produk1" 
-                        class="xl:w-9 xl:h-9">
+                        class="md:w-8 md:h-8 xl:w-9 xl:h-9">
                     </a>
                 </div>
                 <div class="flex flex-row w-full justify-start items-center mt-[3vh]">
@@ -403,7 +403,7 @@
                 Mengapa sabun lerak Demibumi ramah lingkungan <br>dan baik untuk kesehatan?
             </p>
         </div>
-        <div class="flex flex-row justify-between items-center w-[80vw] h-[351px] my-[8vh]">
+        <div class="hidden flex flex-row justify-between items-center w-[80vw] h-[351px] my-[8vh]">
             <div class="flex flex-col justify-start items-center bg-putihFont w-[212px] h-[289px] shadow-2xl rounded-3xl px-5 gap-y-4">
                 <img src="./asset/iconYuk1.png" alt="iconYuk1" class="w-[76px] h-[76px] -mt-[4vh]">
                 <!-- harusnya n-b itu  font-na-B -->
@@ -491,7 +491,7 @@
                 </a>
             </div>
         </div>
-        <div class="flex flex-col justify-start w-[525px] h-[582px]">
+        <div class="hidden flex flex-col justify-start w-[525px] h-[582px]">
 
             <img src="./asset/rectangle1.png" alt="rectangle1" class="absolute z-20 w-[525px] h-[402px]">
             <img src="./asset/rectangle2.png" alt="rectangle2" class="absolute z-10 w-[525px] h-[500px]">
