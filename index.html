@@ -226,69 +226,54 @@
 
     </div>
 
-    <div class="relative flex flex-row w-full h-[35vh] bg-putihBg justify-evenly">
-        <div class="w-1/2 bg-putihBg">
+    <div class="relative flex flex-row w-full h-[35vh] bg-putihBg justify-evenly items-center">
+        <div class="w-1/2 h-full bg-putihBg">
             <div class="flex flex-col justify-evenly items-center">
-                <p class="text-buttonExplore text-hitamFont font-na-SB mb-[5vh]">
-                    Testimonials
-                </p>
-                <div class="flex flex-row w-full justify-evenly items-center px-[5vw] mb-[5vh]">
-                    <button>
+                <div class="flex flex-row justify-start items-center  ">
+                    <button onclick="prev()">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
                         </svg>
                     </button>
-                    <p class="text-base font-m-R text-hitamFont text-center">
-                        Bagus banget sabunnya gak bikin tangan iritasi 
-                    </p>
-                    <button>
+                    <ul id="slider">
+                        <li>
+                            <img src="./asset/testikiri1.png" alt="" class="lg:w-[500px] lg:h-[219px] xl:w-[500px] xl:h-[219px]">
+                        </li>
+                        <li class="hidden">
+                            <img src="./asset/testikiri2.png" alt="" class="xl:w-[500px] xl:h-[219px]">
+                        </li>
+                    </ul>
+                    <button onclick="next()">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                         </svg>  
                     </button>
-                </div>
-                <div class="flex flex-row justify-center items-center">
-                    <img src="./asset/iconProfile.png" alt="iconProfile" class="w-[69px] h-[69px] mr-[1vw]">
-                    <p class="text-button font-m-B text-hitamFont">
-                        Putri 
-                        <span class="font-m-R text-button400">
-                            /@putriihmns
-                        </span>
-                    </p>
                 </div>
             </div>
         </div>
 
-        <div class="w-[50vw] bg-putihBg">
+        <div class="w-1/2 h-full bg-putihBg">
             <div class="flex flex-col justify-evenly items-center">
-                <p class="text-buttonExplore text-hitamFont font-na-SB mb-[5vh]">
-                    Testimonials
-                </p>
-                <div class="flex flex-row w-full justify-evenly items-center px-[5vw] mb-[5vh]">
-                    <button>
+                <div class="flex flex-row justify-start items-center">
+                    <button onclick="prev2()">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
                         </svg>
                     </button>
-                    <p class="text-base font-m-R text-hitamFont mx-5 text-center">
-                        udah setahun make sabun lerak, semoga bisa konsisten pake yang alami!! 
-                    </p>
-                    <button>
+                    <ul id="slider2">
+                        <li>
+                            <img src="./asset/testikanan1.png" alt="" class="xl:w-[500px] xl:h-[219px]">
+                        </li>
+                        <li class="hidden">
+                            <img src="./asset/testikanan2.png" alt="" class="xl:w-[500px] xl:h-[219px]">
+                        </li>
+                    </ul>
+                    <button onclick="next2()">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                         </svg>  
                     </button>
                 </div>
-                <div class="flex flex-row justify-center items-center">
-                    <img src="./asset/iconProfile.png" alt="iconProfile" class="w-[69px] h-[69px] mr-[1vw]">
-                    <p class="text-button font-m-B text-hitamFont">
-                        Delia 
-                        <span class="font-m-R text-button400">
-                            / Delia.shk01
-                        </span>
-                    </p>
-                </div>
-
             </div>
         </div>
 
